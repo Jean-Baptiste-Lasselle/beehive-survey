@@ -31,4 +31,5 @@ docker run -d -p 8181:8181 -v beehivey:/conf/:rw gabrielalacchi/beehive
 
 Then I get something at :  http://poste-devops-typique:8181/admin 
 
-Note that `poste-devops-typique` is a host name for a simple VM created on my workstation.
+Note that `poste-devops-typique` is a host name for a simple VM created on my workstation, on which I installed docker-compose.yml, and a private docker registry at `poste-devops-typique:5000`, just a pure basis one `registry:2` based.
+
