@@ -28,3 +28,7 @@ docker pull gabrielalacchi/beehive
 # docker run --name beehive -d -p 8181:8181 gabrielalacchi/beehive
 docker run -d -p 8181:8181 -v beehivey:/conf/:rw gabrielalacchi/beehive
 ```
+
+Then I get something at :  http://poste-devops-typique:8181/admin 
+
+Note that `poste-devops-typique` is a host name for a simple VM created on my workstation.
